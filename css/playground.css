@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+}
+
+table.playground, .reset, #round {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.reset {
+  display: block;
+}
+
+table.playground tr td {
+  border: 1px solid black;
+  width: 72px;
+  height: 72px;
+}
+
+table.playground tr td.circle {
+  background-image: url(../img/circle.png);
+}
+
+table.playground tr td.cross {
+  background-image: url(../img/cross.png);
+}
+
